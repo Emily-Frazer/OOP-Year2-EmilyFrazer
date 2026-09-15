@@ -26,10 +26,13 @@ Observed result: the message was only shown one time
 Explanation in my own words: the header and the cpp file for report are linked together, the cpp can read what is in the header due to the #include at the top of the cpp. it knows what the report function is due to it being defined in the header file. This means that the function is called as normal
 
 Modification/test performed: commenting out where the function is called in the cpp file to see what happened
+2: Changing the name of the included header file to see what would happen to the cpp file
 
 What was observed: When the function call was commented out of the cpp. THe program didnt run, the error message mentioned missing a function header and had "old style?" in brackets afterwards. The program has no idea what function it is calling becaue the calling line has been commented out
 
-What I repaired or still need to understand: 
+2:Changing the name of the header file led to the cpp file having no idea what it was looking for in the files. there is only one .h file and it didnt match the name it was looking for, this led to all the function declarations being missing so the cpp file had no idea what it could do 
+
+What I repaired or still need to understand: changing the name back to the correct header file allowed the cpp file to see the function declarations again. this shows how important it is to spell the names of your files correctly and to #include them properly into the needed files
 
 ## 03 · Read a name without losing its spaces
 
