@@ -2,7 +2,7 @@
 
 Name or student identifier: Emily frazer c003222789
 Project/repository: OOP-Year2-EmilyFrazer
-Configuration and compiler: 
+Configuration and compiler: Visual studio, C++
 Final commit identifier: 
 
 ## 01 · Create a program you can build
@@ -36,15 +36,15 @@ What I repaired or still need to understand: changing the name back to the corre
 
 ## 03 · Read a name without losing its spaces
 
-Prediction before running: 
+Prediction before running: not sure what will happen but i think the space will just be included in the string as a space. I am not sure what the importance of getLine() is.
 
-Observed result: 
+Observed result: The program ran as intended, no error messages were outputted to the screen
 
-Explanation in my own words: 
+Explanation in my own words: the code initialised a variable of  string for the players name, then asked for the player to input it. I am not entirely sure what getline() does but from observation its checking to see if the player actually inputted anything. if the player didnt, an error message shows with the error that no name was found or read. If the player inputted a name, the program ended with the message intended for the player
 
-Modification/test performed: 
+Modification/test performed: change the program to ask for a different inputted string
 
-What I repaired or still need to understand: 
+What I repaired or still need to understand: thwe names of your variables are important. you cant ask the player for the name of their location and save it in the code as "player name". it gets confusing for the programmer
 
 ## 04 · Recover from an invalid bonus
 
