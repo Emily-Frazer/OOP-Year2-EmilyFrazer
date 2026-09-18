@@ -19,6 +19,11 @@ int main()
 
 	std::cout << "Please enter how many units you want to order: ";
 	std::cin >> unitAmt;
+	std::cout << unitAmt;
+	if (unitAmt <= 0)
+	{
+		std::cout << "please enter an amount more than 0";    
+	}
 
 
 
