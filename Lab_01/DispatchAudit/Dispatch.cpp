@@ -26,24 +26,36 @@ std::string depotInput()
 int orderInput()
 {
 	//variables
-	int unitAmt; 
+	int unitAmt;
+	bool accepted = false; // is the input accepted
 
 	//user input
-	std::cout << "Please enter how many units you want to order: ";
-
-	//error checking
-	if (!(std::cin >> unitAmt))
+	
+	while (accepted == false)
 	{
-		std::cout << "please enter a number";
-	}
-
-	while (unitAmt <= 0 || unitAmt > 60) //add the check for letters bestie
-	{
-		std::cout << "please enter an amount more than 0";
+		std::cout << "Please enter how many units you want to order: ";
 		std::cin >> unitAmt;
-
+		if (std::cin.fail())
+		{
+			std::cout << "error! please make sure you are entering a number between 0 and 60" << std::endl;
+			std::cin.clear();
+			std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+		}
+		else
+		{
+			if (unitAmt >= 0 && unitAmt < 60)
+			{
+				std::cin >> unitAmt;
+				std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+				accepted = true;
+			}
+			else
+			{
+				std::cout << "Please enter a number between 0 and 60. " << std::endl;
+			}
+		}
 	}
-	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
 
 	return unitAmt;
 }
