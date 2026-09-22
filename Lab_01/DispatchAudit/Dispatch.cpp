@@ -45,8 +45,6 @@ int orderInput()
 		{
 			if (unitAmt >= 0 && unitAmt < 60)
 			{
-				std::cin >> unitAmt;
-				std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 				accepted = true;
 			}
 			else

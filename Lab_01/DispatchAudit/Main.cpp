@@ -19,12 +19,7 @@ int main()
 	unitAmt = orderInput();
 
 	std::cout << depotName << std::endl;
-	std::cout << orderInput << std::endl;
-
-	if (unitAmt == -1)
-	{
-		std::cout << "Error! please enter an actual number";
-	}
+	std::cout << unitAmt << std::endl;
 	
 
 
