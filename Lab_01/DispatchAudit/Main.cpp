@@ -2,6 +2,9 @@
 
 #include <iostream>
 #include <string>
+#include <limits>
+
+#include "Dispatch.h"
 
 //main function, everything go in here
 int main()
@@ -10,20 +13,12 @@ int main()
 	std::string depotName = "";
 	int unitAmt = 0;
 
-	//user input
-	
-	std::cout << "Please enter the name of the Depot: ";
-	std::getline(std::cin, depotName);
-	
-	std::cout << depotName << std::endl;
+	//function calls and stuff
 
-	std::cout << "Please enter how many units you want to order: ";
-	std::cin >> unitAmt;
-	std::cout << unitAmt;
-	if (unitAmt <= 0)
-	{
-		std::cout << "please enter an amount more than 0";    
-	}
+	depotName = depotInput();
+	unitAmt = orderInput();
+	
+
 
 
 
