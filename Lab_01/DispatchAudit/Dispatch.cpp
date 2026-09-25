@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 #include <limits>
+#include <fstream>
 
 #include "Dispatch.h"
 
@@ -56,4 +57,56 @@ int orderInput()
 
 
 	return unitAmt;
+}
+
+/// <summary>
+/// reads batches.txt for the stock counts
+/// </summary>
+void readFile()
+{
+	int batch; //the number read from file
+	int batchAmt = 0; //total batches for the stock
+	int lowBatchAmt = 0; //amt of batches with a number less than 10
+	const int MAX_ENTRIES = 12; //maximum amt of antries in the file
+	int total = 0; //total amount of stock
+
+	std::ifstream input("batches.txt"); //checking if the file is being read
+	if (!input)
+	{
+		std::cout << "Error! cannot read the file :( \n";
+	}
+	else 
+	{
+		std::cout << "reading file . . . \n";
+	}
+
+	while (input >> std::ws && !input.eof()) //while reading file
+	{
+		if (!(input >> batch) || batch > 40 || batch < 0) //if insdide the given amount
+		{
+
+		}
+		else
+		{
+			if (batch < 10) //checking for ower batches
+			{
+				lowBatchAmt++;
+			}
+			batchAmt++;
+			total += batch;
+			if (batchAmt == MAX_ENTRIES) //if entries hit 12
+			{
+				break;
+			}
+		}
+		
+		
+
+	}
+	//displaying everything
+	std::cout << "Low batch amount (batches under 10): " << lowBatchAmt << std::endl;
+	std::cout << "Total batch amount: " << batchAmt << std::endl;
+	std::cout << "Total stock amount: " << total << std::endl;
+
+
 }

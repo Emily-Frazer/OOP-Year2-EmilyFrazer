@@ -17,6 +17,7 @@ int main()
 
 	depotName = depotInput();
 	unitAmt = orderInput();
+	readFile();
 
 	std::cout << depotName << std::endl;
 	std::cout << unitAmt << std::endl;
