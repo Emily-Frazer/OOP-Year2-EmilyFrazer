@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{210005B4-D452-43D6-B2A7-85680DC8E730}|Project1\\Project1.vcxproj|C:\\Users\\C00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\TUTORIALS\\tutorial ch2\\chapter2\\Project1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{210005B4-D452-43D6-B2A7-85680DC8E730}|Project1\\Project1.vcxproj|solutionrelative:Project1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{210005B4-D452-43D6-B2A7-85680DC8E730}|Project1\\Project1.vcxproj|C:\\Users\\C00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\TUTORIALS\\tutorial ch2\\chapter2\\Project1\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{210005B4-D452-43D6-B2A7-85680DC8E730}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{210005B4-D452-43D6-B2A7-85680DC8E730}|Project1\\Project1.vcxproj|C:\\Users\\C00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\TUTORIALS\\tutorial ch2\\chapter2\\Project1\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{210005B4-D452-43D6-B2A7-85680DC8E730}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "C:\\Users\\C00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\TUTORIALS\\tutorial ch2\\chapter2\\Project1\\Player.cpp",
+              "RelativeDocumentMoniker": "Project1\\Player.cpp",
+              "ToolTip": "C:\\Users\\C00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\TUTORIALS\\tutorial ch2\\chapter2\\Project1\\Player.cpp",
+              "RelativeToolTip": "Project1\\Player.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-09-29T08:48:31.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Player.h",
+              "DocumentMoniker": "C:\\Users\\C00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\TUTORIALS\\tutorial ch2\\chapter2\\Project1\\Player.h",
+              "RelativeDocumentMoniker": "Project1\\Player.h",
+              "ToolTip": "C:\\Users\\C00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\TUTORIALS\\tutorial ch2\\chapter2\\Project1\\Player.h",
+              "RelativeToolTip": "Project1\\Player.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-09-29T08:32:28.134Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\C00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\TUTORIALS\\tutorial ch2\\chapter2\\Project1\\main.cpp",
               "RelativeDocumentMoniker": "Project1\\main.cpp",
-              "ToolTip": "C:\\Users\\C00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\TUTORIALS\\tutorial ch2\\chapter2\\Project1\\main.cpp*",
-              "RelativeToolTip": "Project1\\main.cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\C00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\TUTORIALS\\tutorial ch2\\chapter2\\Project1\\main.cpp",
+              "RelativeToolTip": "Project1\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-09-29T08:22:45.709Z",
               "EditorCaption": ""
