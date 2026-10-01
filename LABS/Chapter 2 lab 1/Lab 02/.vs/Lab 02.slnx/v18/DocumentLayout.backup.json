@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\c00322789\\Desktop\\git\\OOP-Year2-EmilyFrazer\\LABS\\Chapter 2 lab 1\\Lab 02\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{97638982-D7E8-4883-96EC-5A26C4DC1B54}|Lab 02.vcxproj|C:\\Users\\c00322789\\Desktop\\git\\OOP-Year2-EmilyFrazer\\LABS\\Chapter 2 lab 1\\Lab 02\\TrainingBot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{97638982-D7E8-4883-96EC-5A26C4DC1B54}|Lab 02.vcxproj|solutionrelative:TrainingBot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{97638982-D7E8-4883-96EC-5A26C4DC1B54}|Lab 02.vcxproj|C:\\Users\\c00322789\\Desktop\\git\\OOP-Year2-EmilyFrazer\\LABS\\Chapter 2 lab 1\\Lab 02\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{97638982-D7E8-4883-96EC-5A26C4DC1B54}|Lab 02.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97638982-D7E8-4883-96EC-5A26C4DC1B54}|Lab 02.vcxproj|C:\\Users\\c00322789\\Desktop\\git\\OOP-Year2-EmilyFrazer\\LABS\\Chapter 2 lab 1\\Lab 02\\TrainingBot.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{97638982-D7E8-4883-96EC-5A26C4DC1B54}|Lab 02.vcxproj|solutionrelative:TrainingBot.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97638982-D7E8-4883-96EC-5A26C4DC1B54}|Lab 02.vcxproj|C:\\Users\\c00322789\\Desktop\\git\\OOP-Year2-EmilyFrazer\\LABS\\Chapter 2 lab 1\\Lab 02\\TrainingBot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{97638982-D7E8-4883-96EC-5A26C4DC1B54}|Lab 02.vcxproj|solutionrelative:TrainingBot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,23 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "TrainingBot.cpp",
               "DocumentMoniker": "C:\\Users\\c00322789\\Desktop\\git\\OOP-Year2-EmilyFrazer\\LABS\\Chapter 2 lab 1\\Lab 02\\TrainingBot.cpp",
               "RelativeDocumentMoniker": "TrainingBot.cpp",
               "ToolTip": "C:\\Users\\c00322789\\Desktop\\git\\OOP-Year2-EmilyFrazer\\LABS\\Chapter 2 lab 1\\Lab 02\\TrainingBot.cpp",
               "RelativeToolTip": "TrainingBot.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-10-01T14:29:31.12Z"
+              "WhenOpened": "2026-10-01T14:29:31.12Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TrainingBot.h",
               "DocumentMoniker": "C:\\Users\\c00322789\\Desktop\\git\\OOP-Year2-EmilyFrazer\\LABS\\Chapter 2 lab 1\\Lab 02\\TrainingBot.h",
               "RelativeDocumentMoniker": "TrainingBot.h",
@@ -50,7 +51,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\c00322789\\Desktop\\git\\OOP-Year2-EmilyFrazer\\LABS\\Chapter 2 lab 1\\Lab 02\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
