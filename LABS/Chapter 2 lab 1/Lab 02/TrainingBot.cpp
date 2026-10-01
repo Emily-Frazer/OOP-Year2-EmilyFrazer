@@ -18,3 +18,14 @@ void TrainingBot::takeDamage(int t_amount) //makes health go down when called
 	}
 	
 }
+
+bool TrainingBot::isAlive()
+{
+	bool result = true;
+	if (m_health == 0)
+	{
+		result = false;
+	}
+
+	return result;
+}

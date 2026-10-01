@@ -6,13 +6,17 @@
 
 int main()
 {
+	std::cout << std::boolalpha;
+
 	std::cout << "Training bot!\n\n\n";
 
 	TrainingBot bot;
 	std::cout << "the robots starting health: " << bot.health() << std::endl;
 
 	bot.takeDamage(25);
-	std::cout << "Bot took 25 damage!! \n Current bot hp: " << bot.health();
+	std::cout << "Bot took 25 damage!! \n Current bot hp: " << bot.health() << "\n\n";
+
+	std::cout << "Is the bot alive? : " << bot.isAlive() << std::endl;
 
 	return 0;
 }

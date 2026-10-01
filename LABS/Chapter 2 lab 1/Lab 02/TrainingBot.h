@@ -6,6 +6,7 @@ class TrainingBot
 public:
     int health() const;
     void takeDamage(int t_amount);
+    bool isAlive();
 
 private:
     int m_health{ 100 };
