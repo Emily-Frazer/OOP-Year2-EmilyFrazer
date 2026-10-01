@@ -1,5 +1,10 @@
 #include "TrainingBot.h"
 
+TrainingBot::TrainingBot(int t_health) 
+	:m_health{ t_health }
+{
+
+}
 
 int TrainingBot::health() const
 {
@@ -19,7 +24,7 @@ void TrainingBot::takeDamage(int t_amount) //makes health go down when called
 	
 }
 
-bool TrainingBot::isAlive()
+bool TrainingBot::isAlive() const
 {
 	bool result = true;
 	if (m_health == 0)
