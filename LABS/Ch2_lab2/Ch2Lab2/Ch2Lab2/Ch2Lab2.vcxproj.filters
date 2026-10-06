@@ -24,12 +24,18 @@
     <ClCompile Include="receiver.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="beaconPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="beacon.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="receiver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="beaconPool.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

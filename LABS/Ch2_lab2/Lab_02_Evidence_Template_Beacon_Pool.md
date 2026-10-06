@@ -1,13 +1,13 @@
 # Chapter 2 · Practical Lab 2 · Evidence
 ## Beacon pool console
 
-Name or student identifier: [complete]
+Name or student identifier: [emily frazer]
 
-Date (YYYY-MM-DD): [complete]
+Date (YYYY-MM-DD): [6/10/26]
 
-Repository URL, if used: [complete / not used]
+Repository URL, if used: [https://github.com/Emily-Frazer/OOP-Year2-EmilyFrazer.git]
 
-Visual Studio version: [complete]
+Visual Studio version: [2026]
 
 Platform Toolset: v145 · Language: C++17 · Configuration: Debug · Platform: x64
 
@@ -27,25 +27,25 @@ When the lab asks for a prediction, write it down before you run the program. If
 
 **Project name:**
 
-[complete]
+[Ch2_Lab2]
 
 **Files created:**
 
-- [ ] `Main.cpp`
-- [ ] `Beacon.h`
-- [ ] `Beacon.cpp`
-- [ ] `Receiver.h`
-- [ ] `Receiver.cpp`
-- [ ] `BeaconPool.h`
-- [ ] `BeaconPool.cpp`
+- [o ] `Main.cpp`
+- [o ] `Beacon.h`
+- [ o] `Beacon.cpp`
+- [o ] `Receiver.h`
+- [ o] `Receiver.cpp`
+- [o ] `BeaconPool.h`
+- [o] `BeaconPool.cpp`
 
 **Build settings checked:**
 
-- [ ] Platform Toolset `v145`
-- [ ] C++ Language Standard `ISO C++17`
-- [ ] Warning Level `/W4`
-- [ ] `Debug`
-- [ ] `x64`
+- [ o] Platform Toolset `v145`
+- [o ] C++ Language Standard `ISO C++17`
+- [ o] Warning Level `/W4`
+- [o ] `Debug`
+- [o ] `x64`
 
 **First successful console output:**
 
@@ -55,7 +55,7 @@ Beacon pool lab
 
 **Did the starter project build and run successfully?**
 
-[yes / no]
+[yes]
 
 If no, briefly record the problem you fixed:
 

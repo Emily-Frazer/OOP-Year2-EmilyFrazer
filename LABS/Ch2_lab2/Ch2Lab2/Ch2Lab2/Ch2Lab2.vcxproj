@@ -140,11 +140,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="beacon.cpp" />
+    <ClCompile Include="beaconPool.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="receiver.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="beacon.h" />
+    <ClInclude Include="beaconPool.h" />
     <ClInclude Include="receiver.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
