@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{264E2E54-B5EB-4664-AFF1-0BC5F679D1C2}|Ch2Lab2\\Ch2Lab2.vcxproj|C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\receiver.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{264E2E54-B5EB-4664-AFF1-0BC5F679D1C2}|Ch2Lab2\\Ch2Lab2.vcxproj|solutionrelative:Ch2Lab2\\receiver.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{264E2E54-B5EB-4664-AFF1-0BC5F679D1C2}|Ch2Lab2\\Ch2Lab2.vcxproj|C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\beacon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{264E2E54-B5EB-4664-AFF1-0BC5F679D1C2}|Ch2Lab2\\Ch2Lab2.vcxproj|solutionrelative:Ch2Lab2\\beacon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{264E2E54-B5EB-4664-AFF1-0BC5F679D1C2}|Ch2Lab2\\Ch2Lab2.vcxproj|C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\beaconPool.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{264E2E54-B5EB-4664-AFF1-0BC5F679D1C2}|Ch2Lab2\\Ch2Lab2.vcxproj|solutionrelative:Ch2Lab2\\beaconPool.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{264E2E54-B5EB-4664-AFF1-0BC5F679D1C2}|Ch2Lab2\\Ch2Lab2.vcxproj|C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\beaconPool.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{264E2E54-B5EB-4664-AFF1-0BC5F679D1C2}|Ch2Lab2\\Ch2Lab2.vcxproj|solutionrelative:Ch2Lab2\\beaconPool.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{264E2E54-B5EB-4664-AFF1-0BC5F679D1C2}|Ch2Lab2\\Ch2Lab2.vcxproj|C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\beaconPool.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{264E2E54-B5EB-4664-AFF1-0BC5F679D1C2}|Ch2Lab2\\Ch2Lab2.vcxproj|solutionrelative:Ch2Lab2\\beaconPool.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{264E2E54-B5EB-4664-AFF1-0BC5F679D1C2}|Ch2Lab2\\Ch2Lab2.vcxproj|C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\receiver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{264E2E54-B5EB-4664-AFF1-0BC5F679D1C2}|Ch2Lab2\\Ch2Lab2.vcxproj|solutionrelative:Ch2Lab2\\receiver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{264E2E54-B5EB-4664-AFF1-0BC5F679D1C2}|Ch2Lab2\\Ch2Lab2.vcxproj|C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\receiver.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{264E2E54-B5EB-4664-AFF1-0BC5F679D1C2}|Ch2Lab2\\Ch2Lab2.vcxproj|solutionrelative:Ch2Lab2\\receiver.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{264E2E54-B5EB-4664-AFF1-0BC5F679D1C2}|Ch2Lab2\\Ch2Lab2.vcxproj|C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{264E2E54-B5EB-4664-AFF1-0BC5F679D1C2}|Ch2Lab2\\Ch2Lab2.vcxproj|solutionrelative:Ch2Lab2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{264E2E54-B5EB-4664-AFF1-0BC5F679D1C2}|Ch2Lab2\\Ch2Lab2.vcxproj|C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\beacon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{264E2E54-B5EB-4664-AFF1-0BC5F679D1C2}|Ch2Lab2\\Ch2Lab2.vcxproj|solutionrelative:Ch2Lab2\\beacon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{264E2E54-B5EB-4664-AFF1-0BC5F679D1C2}|Ch2Lab2\\Ch2Lab2.vcxproj|C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{264E2E54-B5EB-4664-AFF1-0BC5F679D1C2}|Ch2Lab2\\Ch2Lab2.vcxproj|solutionrelative:Ch2Lab2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{264E2E54-B5EB-4664-AFF1-0BC5F679D1C2}|Ch2Lab2\\Ch2Lab2.vcxproj|C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\beacon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{264E2E54-B5EB-4664-AFF1-0BC5F679D1C2}|Ch2Lab2\\Ch2Lab2.vcxproj|solutionrelative:Ch2Lab2\\beacon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,46 +42,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "beaconPool.h",
-              "DocumentMoniker": "C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\beaconPool.h",
-              "RelativeDocumentMoniker": "Ch2Lab2\\beaconPool.h",
-              "ToolTip": "C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\beaconPool.h",
-              "RelativeToolTip": "Ch2Lab2\\beaconPool.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-10-06T08:46:26.394Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "beaconPool.cpp",
-              "DocumentMoniker": "C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\beaconPool.cpp",
-              "RelativeDocumentMoniker": "Ch2Lab2\\beaconPool.cpp",
-              "ToolTip": "C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\beaconPool.cpp",
-              "RelativeToolTip": "Ch2Lab2\\beaconPool.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "Title": "receiver.cpp",
+              "DocumentMoniker": "C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\receiver.cpp",
+              "RelativeDocumentMoniker": "Ch2Lab2\\receiver.cpp",
+              "ToolTip": "C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\receiver.cpp",
+              "RelativeToolTip": "Ch2Lab2\\receiver.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-10-06T08:46:16.148Z",
+              "WhenOpened": "2026-10-06T08:35:31.208Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "beacon.h",
-              "DocumentMoniker": "C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\beacon.h",
-              "RelativeDocumentMoniker": "Ch2Lab2\\beacon.h",
-              "ToolTip": "C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\beacon.h",
-              "RelativeToolTip": "Ch2Lab2\\beacon.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-10-06T08:35:06.272Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "receiver.h",
               "DocumentMoniker": "C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\receiver.h",
               "RelativeDocumentMoniker": "Ch2Lab2\\receiver.h",
@@ -94,41 +68,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "receiver.cpp",
-              "DocumentMoniker": "C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\receiver.cpp",
-              "RelativeDocumentMoniker": "Ch2Lab2\\receiver.cpp",
-              "ToolTip": "C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\receiver.cpp",
-              "RelativeToolTip": "Ch2Lab2\\receiver.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-10-06T08:35:31.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "beacon.cpp",
               "DocumentMoniker": "C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\beacon.cpp",
               "RelativeDocumentMoniker": "Ch2Lab2\\beacon.cpp",
               "ToolTip": "C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\beacon.cpp",
               "RelativeToolTip": "Ch2Lab2\\beacon.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-10-06T08:35:26.022Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "beaconPool.h",
+              "DocumentMoniker": "C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\beaconPool.h",
+              "RelativeDocumentMoniker": "Ch2Lab2\\beaconPool.h",
+              "ToolTip": "C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\beaconPool.h",
+              "RelativeToolTip": "Ch2Lab2\\beaconPool.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-10-06T08:46:26.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\main.cpp",
               "RelativeDocumentMoniker": "Ch2Lab2\\main.cpp",
               "ToolTip": "C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\main.cpp",
               "RelativeToolTip": "Ch2Lab2\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-10-06T08:33:45.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "beaconPool.cpp",
+              "DocumentMoniker": "C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\beaconPool.cpp",
+              "RelativeDocumentMoniker": "Ch2Lab2\\beaconPool.cpp",
+              "ToolTip": "C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\beaconPool.cpp",
+              "RelativeToolTip": "Ch2Lab2\\beaconPool.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-06T08:46:16.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "beacon.h",
+              "DocumentMoniker": "C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\beacon.h",
+              "RelativeDocumentMoniker": "Ch2Lab2\\beacon.h",
+              "ToolTip": "C:\\Users\\c00322789\\Documents\\GIT\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab2\\Ch2Lab2\\Ch2Lab2\\beacon.h",
+              "RelativeToolTip": "Ch2Lab2\\beacon.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-10-06T08:35:06.272Z",
               "EditorCaption": ""
             }
           ]
