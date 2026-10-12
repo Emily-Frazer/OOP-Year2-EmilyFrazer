@@ -31,6 +31,25 @@ int BeaconPool::request(int t_strength)
 	}
 }
 
+bool BeaconPool::release(int t_index)
+{
+	if (t_index < 0 or t_index > CAPACITY)
+	{
+		return false; //break out before YOU break something
+	}
+
+	if (m_beacons[t_index].active() == true)
+	{
+		m_beacons[t_index].reset();
+		return true;
+	}
+
+	else
+	{
+		return false;
+	}
+}
+
 int BeaconPool::activeCount() const
 {
 	int activeAmt = 0;
@@ -42,4 +61,21 @@ int BeaconPool::activeCount() const
 		}
 	}
 	return activeAmt;
+}
+
+int BeaconPool::strengthAt(int t_index) const
+{
+	if (t_index < 0 or t_index > CAPACITY)
+	{
+		return -1;
+	}
+	else
+	{
+		return m_beacons[t_index].strength();
+	}
+}
+
+int BeaconPool::successfulRequests()
+{
+	return s_successfulRequests;
 }

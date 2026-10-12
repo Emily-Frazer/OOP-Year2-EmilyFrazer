@@ -29,7 +29,7 @@ void Beacon::activate(int t_strength)
 
 void Beacon::reset()
 {
-	m_active = 0;
+	m_strength = 0;
 	m_active = false;
 }
 

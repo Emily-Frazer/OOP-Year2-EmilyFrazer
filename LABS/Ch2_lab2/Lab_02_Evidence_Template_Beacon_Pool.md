@@ -134,29 +134,29 @@ For a valid request, the pool should activate the first free slot.
 
 **My prediction before running:**
 
-- request 30 -> slot [complete]
-- request 60 -> slot [complete]
-- request 90 -> slot [complete]
-- request 50 when full -> slot [complete]
+- request 30 -> slot [0]
+- request 60 -> slot [1]
+- request 90 -> slot [2]
+- request 50 when full -> slot [-1]
 
 **Actual values:**
 
-- request 30 -> slot [complete]
-- request 60 -> slot [complete]
-- request 90 -> slot [complete]
-- request 50 when full -> slot [complete]
+- request 30 -> slot [0]
+- request 60 -> slot [1]
+- request 90 -> slot [2]
+- request 50 when full -> slot [-1]
 
 **What range of signal strengths does your `request()` accept?**
 
-[complete]
+[0-100 inclusive]
 
 **When should `s_successfulRequests` increase?**
 
-[one sentence]
+[when there is a successful request to activate a beacon, and one gets marked as active]
 
 **Status:**
 
-[not started / working / complete]
+[complete]
 
 ---
 
@@ -166,28 +166,45 @@ The core sequence releases the second checkout and then requests a new strength 
 
 **Prediction before running:**
 
-- released slot: [complete]
-- released result: [complete]
-- strength after release: [complete]
-- reused slot: [complete]
+- released slot: [1]
+- released result: [true]
+- strength after release: [0]
+- reused slot: [1]
 
 **Actual result:**
 
 ```text
-[copy the Release and reuse output here]
+[Connection Check
+Range to beacon: 25
+
+Pool A
+Start active: 0
+Request 30 -> slot 0
+Request 60 -> slot 1
+Request 90 -> slot 2
+Request 50 -> slot -1
+Active beacons: 3
+Successful requests: 3
+
+Release and reuse
+Released slot 1: true
+Strength after release: 0
+Request 75 -> slot 1
+Active beacons: 3
+Successful requests: 4]
 ```
 
 **Why does `reset()` clear the strength as well as the active flag?**
 
-[one sentence]
+[i resets the beacons stats to their base, making it able to be activated again with a new strength]
 
 **Why must `release()` validate the index before accessing the array?**
 
-[one sentence]
+[if it tries to access outside the array the program will result in an error, preventing this is best]
 
 **Status:**
 
-[not started / working / complete]
+[complete]
 
 ---
 
@@ -307,11 +324,11 @@ Answer each in one or two sentences.
 
 **3. What does `friend class BeaconPool;` grant, and what does it not grant?**
 
-[complete]
+[it allows the class defined as friend to access the private members and functions of the class it is defined in, this can allow for 2 classses to acces a private date member instead of having to make an entire class public for one other class]
 
 **4. Why are `poolA` and `poolB` independent even though they use the same class?**
 
-[complete]
+[they are 2 different arrays of beacon objects, they were not made as the same array]
 
 **5. Why can `successfulRequests()` be called using `BeaconPool::successfulRequests()`?**
 
@@ -325,15 +342,15 @@ Complete this only if you encountered a genuine problem.
 
 **What went wrong?**
 
-[complete / no problem recorded]
+[the full capacity variable was not returning -1, it kept returning 0]
 
 **What did I change?**
 
-[complete / not applicable]
+[i realised i was being silly and thought CAPACITY = 3 meant the index went from 0 to 3, so i was doing a check for index == 3 when index couldnt even go that high, i changed the check to make it check for == CAPACITY instead of == 3]
 
 **What happened after rebuilding?**
 
-[complete / not applicable]
+[it worked as expected after i realised the issue and fixed]
 
 Do not invent an error if you did not encounter one.
 
@@ -355,25 +372,25 @@ Complete only if attempted.
 
 **Actual results:**
 
-[complete / not attempted]
+[not attempted]
 
 ---
 
 ## Final checklist
 
-- [ ] I created the solution and project from scratch.
-- [ ] All seven source/header files are included in the project.
-- [ ] The project builds with v145, C++17, `/W4`, Debug and x64.
-- [ ] `Receiver.h` uses a forward declaration of `Beacon`.
-- [ ] `Receiver.cpp` includes the complete `Beacon` definition before calling Beacon members.
-- [ ] `BeaconPool.h` includes `Beacon.h` because it stores Beacon objects by value.
-- [ ] `request()` validates strength, uses the first free slot and returns `-1` when it cannot serve a request.
-- [ ] `release()` validates the index and resets released state.
-- [ ] `activeCount()` reports the state of one pool only.
-- [ ] `successfulRequests()` reports the shared class-wide tally.
-- [ ] My final console output matches the practical.
-- [ ] Temporary boundary-check edits have been restored.
-- [ ] The final project builds successfully.
+- [o ] I created the solution and project from scratch.
+- [ o] All seven source/header files are included in the project.
+- [ o] The project builds with v145, C++17, `/W4`, Debug and x64.
+- [o ] `Receiver.h` uses a forward declaration of `Beacon`.
+- [o ] `Receiver.cpp` includes the complete `Beacon` definition before calling Beacon members.
+- [o ] `BeaconPool.h` includes `Beacon.h` because it stores Beacon objects by value.
+- [o ] `request()` validates strength, uses the first free slot and returns `-1` when it cannot serve a request.
+- [o ] `release()` validates the index and resets released state.
+- [o ] `activeCount()` reports the state of one pool only.
+- [o ] `successfulRequests()` reports the shared class-wide tally.
+- [o ] My final console output matches the practical.
+- [o ] Temporary boundary-check edits have been restored.
+- [ o] The final project builds successfully.
 
 ---
 
@@ -381,4 +398,4 @@ Complete only if attempted.
 
 One class-relationship concept I can now explain without copying the workbook:
 
-[complete]
+[friendship between classes can be useful for a class that needs to access certain private functions or member data sets, this is easier than having the whole class be public!]
