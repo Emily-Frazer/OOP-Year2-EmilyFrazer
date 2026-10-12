@@ -3,17 +3,17 @@
 
 #include "beacon.h"
 
-class Beaconpool
+class BeaconPool
 {
 public:
 	static constexpr int CAPACITY{ 3 };
 	
-	Beaconpool() = default;
+	BeaconPool() = default;
 	int request(int t_strength);
 	bool release(int t_index);
 	int activeCount() const;
 	int strengthAt(int t_index) const;
-	static int s_successfulRequests();
+	static int successfulRequests();
 
 private:
 	Beacon m_beacons[CAPACITY];

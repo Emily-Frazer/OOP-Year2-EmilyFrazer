@@ -21,3 +21,15 @@ bool Beacon::active() const
 	return m_active;
 }
 
+void Beacon::activate(int t_strength)
+{
+	m_active = true;
+	m_strength = t_strength;
+}
+
+void Beacon::reset()
+{
+	m_active = 0;
+	m_active = false;
+}
+

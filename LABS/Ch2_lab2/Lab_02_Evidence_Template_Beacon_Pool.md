@@ -73,25 +73,26 @@ The receiver uses a `Beacon const&` parameter but does not contain a `Beacon` by
 class Beacon;
 ```
 
-[one sentence]
+[it is looking for the memory where the object created by the beacon class, this means it does not need to find all the different pieces of the beacon object, just where it is stored in memory for reference]
 
 **Which files did you include in `Receiver.cpp` before calling `t_beacon.x()`?**
 
-[complete]
+[receiver.h and beacon.h]
 
 **Prediction before running:**
 
-A receiver at 35 and a beacon at 10 should have range: [complete]
+A receiver at 35 and a beacon at 10 should have range: [25]
 
 **Actual output:**
 
 ```text
-[copy the Connection check output here]
+[Connection Check
+range to beacon: 25]
 ```
 
 **Status:**
 
-[not started / working / complete]
+[complete]
 
 ---
 
@@ -105,7 +106,7 @@ Beacon m_beacons[CAPACITY];
 
 **Why does `BeaconPool.h` need the complete `Beacon` definition rather than only a forward declaration?**
 
-[one or two sentences]
+[beacon pool is telling how many beacons will be created, in this instance it makes multiple beacon objects using the class, it is not referencing a singular beacon rather creationg multiple beacons a once once the beacon pool is called]
 
 **What does this declaration permit?**
 
@@ -113,15 +114,15 @@ Beacon m_beacons[CAPACITY];
 friend class BeaconPool;
 ```
 
-[one sentence]
+[friend classes can access the private and the public members of the class its included in, beaconPool needs to know the contents of beacon in this case]
 
 **Does friendship itself make `BeaconPool` own a `Beacon`?**
 
-[yes / no, followed by one short explanation]
+[no, it doesn't inherently own it but can access the private members to know information about beacon]
 
 **Status:**
 
-[not started / working / complete]
+[/ complete]
 
 ---
 
