@@ -304,16 +304,41 @@ Successful requests: 5
 **Paste your final console output below:**
 
 ```text
-[complete]
+[
+Connection Check
+Range to beacon: 25
+
+Pool A
+Start active: 0
+Request 30 -> slot 0
+Request 60 -> slot 1
+Request 90 -> slot 2
+Request 50 -> slot -1
+Active beacons: 3
+Successful requests: 3
+
+Release and reuse
+Released slot 1: true
+Strength after release: 0
+Request 75 -> slot 1
+Active beacons: 3
+Successful requests: 4
+
+Pool B
+Pool B active: 0
+Pool B request 25 -> slot 0
+Pool A active: 3
+Pool B active: 1
+Successful requests: 5]
 ```
 
 **Does it match?**
 
-[yes / no]
+[yes]
 
 If no, record the remaining difference:
 
-[complete / not applicable]
+[complete]
 
 ---
 
@@ -323,11 +348,11 @@ Answer each in one or two sentences.
 
 **1. Why can `Receiver.h` forward-declare `Beacon`?**
 
-[complete]
+[it includes a memory reference to beacon, allowing it to forward declare]
 
 **2. Why can `BeaconPool.h` not use only the same forward declaration for its array?**
 
-[complete]
+[the forward declaration is for the class beacon, not the object it creates for the array m_beacons, beacon pool can access the members in the beacon class instead]
 
 **3. What does `friend class BeaconPool;` grant, and what does it not grant?**
 
@@ -339,7 +364,7 @@ Answer each in one or two sentences.
 
 **5. Why can `successfulRequests()` be called using `BeaconPool::successfulRequests()`?**
 
-[complete]
+[in my understanding this is how you call a function when it belongs to a class but isnt attached to an object?]
 
 ---
 
@@ -369,7 +394,7 @@ Complete only if attempted.
 
 **Did you add `bool full() const;`?**
 
-[yes / no / not attempted]
+[not attempted]
 
 **Expected results:**
 
