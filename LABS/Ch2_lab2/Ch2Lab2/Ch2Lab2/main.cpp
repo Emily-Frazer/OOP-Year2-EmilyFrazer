@@ -38,5 +38,22 @@ int main()
 	std::cout << "Active beacons: " << poolA.activeCount() << '\n';
 	std::cout << "Successful requests: " << BeaconPool::successfulRequests() << '\n';
 
+	std::cout << "\nPool B\n";
+	BeaconPool poolB{};
+	std::cout << "Pool B active: " << poolB.activeCount() << '\n';
+	int other{ poolB.request(25) };
+	std::cout << "Pool B request 25 -> slot " << other << '\n';
+	std::cout << "Pool A active: " << poolA.activeCount() << '\n';
+	std::cout << "Pool B active: " << poolB.activeCount() << '\n';
+	std::cout << "Successful requests: " << BeaconPool::successfulRequests() << '\n';
+
+
+	//remove after
+	BeaconPool poolC{};
+	int firstc{ poolC.request(0) };
+	std::cout << "Pool c request 0 -> slot" << first << std::endl;
+	std::cout << "successful reqs: " << BeaconPool::successfulRequests() << std::endl;
+	std::cout << "pool c active count:" << poolC.activeCount() << std::endl;
+
 	return 0;
 }

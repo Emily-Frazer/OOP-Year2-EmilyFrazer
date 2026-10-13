@@ -214,31 +214,36 @@ Before running the second-pool experiment, complete the predictions.
 
 **Pool B starts with active count:**
 
-[complete]
+[3]
 
 **Its first successful request should use slot:**
 
-[complete]
+[0]
 
 **Should using Pool B change Pool A's active count?**
 
-[complete]
+[no]
 
 **Expected shared successful-request tally after the Pool B request:**
 
-[complete]
+[3]
 
 **Actual output:**
 
 ```text
-[copy the Pool B output here]
+[Pool B
+Pool B active: 0
+Pool B request 25 -> slot 0
+Pool A active: 3
+Pool B active: 1
+Successful requests: 5]
 ```
 
 Complete the statements:
 
-`m_beacons` is ____________________ state because each `BeaconPool` object has its own array.
+`m_beacons` is _in a per object state_ state because each `BeaconPool` object has its own array.
 
-`s_successfulRequests` is ____________________ state because every `BeaconPool` object refers to the same tally.
+`s_successfulRequests` is _in a class wide_ state because every `BeaconPool` object refers to the same tally.
 
 ---
 
@@ -248,13 +253,15 @@ Use a fresh `BeaconPool` and temporarily request strength `0`.
 
 **Prediction:**
 
-- returned slot: [complete]
-- active count afterwards: [complete]
-- should the shared tally increase? [complete]
+- returned slot: [0]
+- active count afterwards: [1]
+- should the shared tally increase? [yes]
 
 **Actual result:**
 
-[complete]
+[Pool c request 0 -> slot0
+successful reqs: 6
+pool c active count:1]
 
 Restore the final `Main.cpp` afterwards.
 
