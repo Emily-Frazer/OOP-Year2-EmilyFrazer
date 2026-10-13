@@ -5,6 +5,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{5DF56BA1-A680-47AF-81D9-4D5FE8834CA2}|Ch2Lab03\\Ch2Lab03.vcxproj|C:\\Users\\c00322789\\Documents\\git\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab3\\Ch2Lab03\\Ch2Lab03\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5DF56BA1-A680-47AF-81D9-4D5FE8834CA2}|Ch2Lab03\\Ch2Lab03.vcxproj|solutionrelative:Ch2Lab03\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF56BA1-A680-47AF-81D9-4D5FE8834CA2}|Ch2Lab03\\Ch2Lab03.vcxproj|C:\\Users\\c00322789\\Documents\\git\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab3\\Ch2Lab03\\Ch2Lab03\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5DF56BA1-A680-47AF-81D9-4D5FE8834CA2}|Ch2Lab03\\Ch2Lab03.vcxproj|solutionrelative:Ch2Lab03\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF56BA1-A680-47AF-81D9-4D5FE8834CA2}|Ch2Lab03\\Ch2Lab03.vcxproj|C:\\Users\\c00322789\\Documents\\git\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab3\\Ch2Lab03\\Ch2Lab03\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5DF56BA1-A680-47AF-81D9-4D5FE8834CA2}|Ch2Lab03\\Ch2Lab03.vcxproj|solutionrelative:Ch2Lab03\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF56BA1-A680-47AF-81D9-4D5FE8834CA2}|Ch2Lab03\\Ch2Lab03.vcxproj|C:\\Users\\c00322789\\Documents\\git\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab3\\Ch2Lab03\\Ch2Lab03\\EnemyWave.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5DF56BA1-A680-47AF-81D9-4D5FE8834CA2}|Ch2Lab03\\Ch2Lab03.vcxproj|solutionrelative:Ch2Lab03\\EnemyWave.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF56BA1-A680-47AF-81D9-4D5FE8834CA2}|Ch2Lab03\\Ch2Lab03.vcxproj|C:\\Users\\c00322789\\Documents\\git\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab3\\Ch2Lab03\\Ch2Lab03\\EnemyWave.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5DF56BA1-A680-47AF-81D9-4D5FE8834CA2}|Ch2Lab03\\Ch2Lab03.vcxproj|solutionrelative:Ch2Lab03\\EnemyWave.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +30,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnemyWave.h",
+              "DocumentMoniker": "C:\\Users\\c00322789\\Documents\\git\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab3\\Ch2Lab03\\Ch2Lab03\\EnemyWave.h",
+              "RelativeDocumentMoniker": "Ch2Lab03\\EnemyWave.h",
+              "ToolTip": "C:\\Users\\c00322789\\Documents\\git\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab3\\Ch2Lab03\\Ch2Lab03\\EnemyWave.h",
+              "RelativeToolTip": "Ch2Lab03\\EnemyWave.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-10-13T08:48:37.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Enemy.h",
+              "DocumentMoniker": "C:\\Users\\c00322789\\Documents\\git\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab3\\Ch2Lab03\\Ch2Lab03\\Enemy.h",
+              "RelativeDocumentMoniker": "Ch2Lab03\\Enemy.h",
+              "ToolTip": "C:\\Users\\c00322789\\Documents\\git\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab3\\Ch2Lab03\\Ch2Lab03\\Enemy.h",
+              "RelativeToolTip": "Ch2Lab03\\Enemy.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-10-13T08:48:13.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Enemy.cpp",
+              "DocumentMoniker": "C:\\Users\\c00322789\\Documents\\git\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab3\\Ch2Lab03\\Ch2Lab03\\Enemy.cpp",
+              "RelativeDocumentMoniker": "Ch2Lab03\\Enemy.cpp",
+              "ToolTip": "C:\\Users\\c00322789\\Documents\\git\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab3\\Ch2Lab03\\Ch2Lab03\\Enemy.cpp",
+              "RelativeToolTip": "Ch2Lab03\\Enemy.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-13T08:47:53.61Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,9 +79,22 @@
               "RelativeDocumentMoniker": "Ch2Lab03\\main.cpp",
               "ToolTip": "C:\\Users\\c00322789\\Documents\\git\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab3\\Ch2Lab03\\Ch2Lab03\\main.cpp",
               "RelativeToolTip": "Ch2Lab03\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADIAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-10-13T08:24:23.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemyWave.cpp",
+              "DocumentMoniker": "C:\\Users\\c00322789\\Documents\\git\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab3\\Ch2Lab03\\Ch2Lab03\\EnemyWave.cpp",
+              "RelativeDocumentMoniker": "Ch2Lab03\\EnemyWave.cpp",
+              "ToolTip": "C:\\Users\\c00322789\\Documents\\git\\OOP-Year2-EmilyFrazer\\LABS\\Ch2_lab3\\Ch2Lab03\\Ch2Lab03\\EnemyWave.cpp",
+              "RelativeToolTip": "Ch2Lab03\\EnemyWave.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-13T08:48:43.397Z",
               "EditorCaption": ""
             }
           ]
