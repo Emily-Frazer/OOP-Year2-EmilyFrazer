@@ -1,12 +1,13 @@
 #include "EnemyWave.h"
 #include "Enemy.h"
 
+//default constructor
 EnemyWave::EnemyWave(int t_count)
 {
 	if (t_count < 0 or t_count > 5)
 	{
-		t_count = 0;
-		m_enemies = nullptr;
+		m_count = 0;
+		//m_enemies = nullptr;
 	}
 	else
 	{
@@ -16,6 +17,8 @@ EnemyWave::EnemyWave(int t_count)
 	}
 
 }
+
+//deconstructor
 EnemyWave::~EnemyWave()
 {
 	delete &m_enemies[m_count];
@@ -26,6 +29,7 @@ int EnemyWave::count() const
 	return m_count;
 }
 
+//make the enemy at index take damage
 bool EnemyWave::damageEnemy(int t_index, int t_amount)
 {
 	if (t_index < 0 or t_index > m_count)
@@ -40,19 +44,21 @@ bool EnemyWave::damageEnemy(int t_index, int t_amount)
 	
 }
 
+//get the heath of enemy at index
 int EnemyWave::healthAt(int t_index) const
 {
 	if (t_index < 0 or t_index > m_count)
 	{
-		return m_enemies[t_index].health();
+		return -1; //error invalid index
 	}
 	else
 	{
-		return -1;
+		return m_enemies[t_index].health();
 	}
 	
 }
 
+//count how many enemies are alivve
 int EnemyWave::aliveCount() const
 {
 	int count = 0;
@@ -66,6 +72,7 @@ int EnemyWave::aliveCount() const
 	return count;
 }
 
+//add up all the total healths
 int EnemyWave::totalHealth() const
 {
 	int total = 0;
