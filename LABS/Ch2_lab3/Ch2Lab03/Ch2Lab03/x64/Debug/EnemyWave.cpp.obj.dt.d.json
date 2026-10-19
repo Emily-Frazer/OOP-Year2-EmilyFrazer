@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\reef\\documents\\college-stuff\\year-2\\oop year 2\\oop-year2-emilyfrazer\\labs\\ch2_lab3\\ch2lab03\\ch2lab03\\enemywave.cpp",
+        "ProvidedModule": "",
+        "Includes": [
+            "c:\\users\\reef\\documents\\college-stuff\\year-2\\oop year 2\\oop-year2-emilyfrazer\\labs\\ch2_lab3\\ch2lab03\\ch2lab03\\enemywave.h",
+            "c:\\users\\reef\\documents\\college-stuff\\year-2\\oop year 2\\oop-year2-emilyfrazer\\labs\\ch2_lab3\\ch2lab03\\ch2lab03\\enemy.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
