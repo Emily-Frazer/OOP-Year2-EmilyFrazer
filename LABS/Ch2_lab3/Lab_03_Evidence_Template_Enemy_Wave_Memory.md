@@ -1,11 +1,11 @@
 # Chapter 2 · Practical Lab 3 · Evidence
 ## Enemy wave memory console
 
-Name or student identifier: [complete]
+Name or student identifier: [emily frazer]
 
-Date (YYYY-MM-DD): [complete]
+Date (YYYY-MM-DD): [17/10/26]
 
-Repository URL, if used: [complete / not used]
+Repository URL, if used: [(https://github.com/Emily-Frazer/OOP-Year2-EmilyFrazer.git)]
 
 Visual Studio version: [complete]
 
@@ -29,23 +29,23 @@ Never deliberately run a double delete, use-after-delete, out-of-bounds access o
 
 **Project name:**
 
-[complete]
+[ch2lab03]
 
 **Files created:**
 
-- [ ] `Main.cpp`
-- [ ] `Enemy.h`
-- [ ] `Enemy.cpp`
-- [ ] `EnemyWave.h`
-- [ ] `EnemyWave.cpp`
+- [o ] `Main.cpp`
+- [o ] `Enemy.h`
+- [o ] `Enemy.cpp`
+- [ o] `EnemyWave.h`
+- [o ] `EnemyWave.cpp`
 
 **Build settings checked:**
 
-- [ ] Platform Toolset `v145`
-- [ ] C++ Language Standard `ISO C++17`
-- [ ] Warning Level `/W4`
-- [ ] `Debug`
-- [ ] `x64`
+- [o ] Platform Toolset `v145`
+- [o ] C++ Language Standard `ISO C++17`
+- [o ] Warning Level `/W4`
+- [o ] `Debug`
+- [o ] `x64`
 
 **First successful output:**
 
@@ -55,11 +55,11 @@ Enemy wave memory lab
 
 **Did the empty project build and run successfully?**
 
-[yes / no]
+[yes]
 
 If no, briefly record the problem you fixed:
 
-[complete / not applicable]
+[ not applicable]
 
 ---
 
@@ -70,36 +70,39 @@ For the single-enemy stage, identify the object and the pointer separately.
 **Allocation expression used:**
 
 ```cpp
-[complete]
+[Enemy* pEnemy{ new Enemy{} };]
 ```
 
 **Starting health predicted:**
 
-[complete]
+[70]
 
 **Health after 30 damage predicted:**
 
-[complete]
+[40]
 
 **Actual output:**
 
 ```text
-[copy the Single dynamic enemy output here]
+[ SINGLE ENEMY
+The enemy health is:70
+The new enemy health: 40]
 ```
 
 **Who owns the dynamically allocated Enemy?**
 
-[one sentence]
+[the enemy class]
 
 **Which statement releases that allocation?**
 
 ```cpp
-[complete]
+[	delete pEnemy;
+	pEnemy = nullptr;]
 ```
 
 **Why does setting the pointer to `nullptr` not replace the required release?**
 
-[one sentence]
+[it makes the pointer point to nothing or "null"]
 
 ---
 
@@ -109,37 +112,43 @@ The raw-array experiment uses three Enemy objects in one array allocation.
 
 **Array count:**
 
-[complete]
+[3]
 
 **Prediction before running:**
 
-- Enemy 0 health: [complete]
-- Enemy 1 health: [complete]
-- Enemy 2 health: [complete]
-- Alive enemies: [complete]
-- Total health: [complete]
+- Enemy 0 health: [75]
+- Enemy 1 health: [0]
+- Enemy 2 health: [40]
+- Alive enemies: [2]
+- Total health: [115]
 
 **Actual output:**
 
 ```text
-[copy the Raw dynamic array output here]
+[ENEMY IN MAIN ARRAY
+Enemy in slot 0 Remaining health: 75
+Enemy in slot 1 Remaining health: 0
+Enemy in slot 2 Remaining Health: 40
+
+Alive enemies 2
+Total hp left = 115]
 ```
 
 **Which cleanup form did you use?**
 
-[complete]
+[deleting pEnemies contents and releasing the pointer]
 
 **Why would deleting each element individually be incorrect for this array?**
 
-[one or two sentences]
+[it risks an element being missed by accident]
 
 ### Objects versus pointer slots
 
 Complete the statements.
 
-`new Enemy[3]` creates ____________________.
+`new Enemy[3]` creates ____an array of 3 new enemy objects in memory ________________.
 
-`new Enemy*[3]{}` creates ____________________ and creates ______ Enemy objects.
+`new Enemy*[3]{}` creates _____an array of 3 new enemy objects in memory_______________ and creates __a pointer to the____ Enemy objects.
 
 ---
 
@@ -149,11 +158,11 @@ Complete the statements.
 
 **Accepted wave-count range:**
 
-[complete]
+[0-5 inclusive]
 
 **What happens for `EnemyWave{8}`?**
 
-[one sentence]
+[the m_count becomes 0 and the array is a nullptr]
 
 **Why is this forward declaration sufficient in `EnemyWave.h`?**
 
@@ -161,23 +170,23 @@ Complete the statements.
 class Enemy;
 ```
 
-[one sentence]
+[so the arrays created have access to enemies members and member functions]
 
 **Why must `EnemyWave.cpp` include `Enemy.h`?**
 
-[one sentence]
+[so the arrays created have access to enemies members and member functions]
 
 **Which allocation is owned by the EnemyWave destructor?**
 
-[one sentence]
+[the allocation of the initialised array]
 
 **Which cleanup form must the destructor use?**
 
-[complete]
+[delete]
 
 **Why are the copy constructor and copy assignment deleted?**
 
-[one or two sentences]
+[]
 
 ---
 
@@ -195,17 +204,23 @@ wave.damageEnemy(2, 60);
 
 **Prediction before running:**
 
-- `count()`: [complete]
-- `healthAt(0)`: [complete]
-- `healthAt(1)`: [complete]
-- `healthAt(2)`: [complete]
-- `aliveCount()`: [complete]
-- `totalHealth()`: [complete]
+- `count()`: [3]
+- `healthAt(0)`: [75]
+- `healthAt(1)`: [0]
+- `healthAt(2)`: [40]
+- `aliveCount()`: [2]
+- `totalHealth()`: [115]
 
 **Actual output:**
 
 ```text
-[copy the Owned wave output here]
+[ENEMY FROM WAVE.H
+ Enemy in slot 0 Remaining health: 75
+Enemy in slot 1 Remaining health: 0
+ Enemy in slot 2 Remaining Health: 40
+
+Alive enemies 2
+Total hp left = 115]
 ```
 
 ### Invalid index check
@@ -218,15 +233,15 @@ wave.damageEnemy(9, 10);
 
 **Predicted return value:**
 
-[complete]
+[-1]
 
 **Did the stored health values remain unchanged?**
 
-[yes / no]
+[yes]
 
 **Why must the index be checked before `m_enemies[t_index]` is used?**
 
-[one sentence]
+[to prevent the program checking outside the array]
 
 ---
 
@@ -234,14 +249,17 @@ wave.damageEnemy(9, 10);
 
 **Prediction for `EnemyWave invalid{8}`:**
 
-- count: [complete]
-- total health: [complete]
-- dynamic Enemy array allocated? [yes / no]
+- count: [0]
+- total health: [0]
+- dynamic Enemy array allocated? [ no]
 
 **Actual output:**
 
 ```text
-[copy the Invalid wave output here]
+[INVALID ENEMY FROM WAVE.H
+
+Alive enemies 0
+Total hp left = 0]
 ```
 
 ---
@@ -252,9 +270,9 @@ Record the three ownership cases used in the practical.
 
 | Allocation | What exists | Owner | Matching release |
 |---|---|---|---|
-| `new Enemy{}` | [complete] | [complete] | [complete] |
-| `new Enemy[enemyCount]` | [complete] | [complete] | [complete] |
-| `new Enemy[m_count]` inside `EnemyWave` | [complete] | [complete] | [complete] |
+| `new Enemy{}` | [a new enemy object] | [enemy class] | [delete, then make nullptr] |
+| `new Enemy[enemyCount]` | [an enemy object array with a max of enemy count] | [enemy class] | [delete] |
+| `new Enemy[m_count]` inside `EnemyWave` | [an enemy object array with a max of m_count] | [enemy wave class] | [delete] |
 
 ---
 
@@ -263,16 +281,41 @@ Record the three ownership cases used in the practical.
 Paste your final program output.
 
 ```text
-[complete]
+[enemy wave memory lab
+
+
+ SINGLE ENEMY
+The enemy health is:70
+The new enemy health: 40
+
+ENEMY IN MAIN ARRAY
+Enemy in slot 0 Remaining health: 75
+Enemy in slot 1 Remaining health: 0
+Enemy in slot 2 Remaining Health: 40
+
+Alive enemies 2
+Total hp left = 115
+
+ENEMY FROM WAVE.H
+ Enemy in slot 0 Remaining health: 75
+Enemy in slot 1 Remaining health: 0
+ nemy in slot 2 Remaining Health: 40
+
+Alive enemies 2
+Total hp left = 115
+INVALID ENEMY FROM WAVE.H
+
+Alive enemies 0
+Total hp left = 0]
 ```
 
 **Does it match the published output in the practical?**
 
-[yes / no]
+[yes]
 
 If no, record the remaining difference:
 
-[complete / not applicable]
+[not applicable]
 
 ---
 
@@ -282,23 +325,23 @@ Answer each in one or two sentences.
 
 **1. What is the difference between a pointer variable and the dynamically allocated object it identifies?**
 
-[complete]
+[im having a hard time understanding this question, a pointer variable would be part of the object and the object is a mix of many variables no?]
 
 **2. Why does `new Enemy[3]` use `delete[]` rather than `delete`?**
 
-[complete]
+[the Enemy[] is an object array, you need to delete the whole array]
 
 **3. Why does destroying an `EnemyWave` need to release its array?**
 
-[complete]
+[to avoid the array being accessed while empty]
 
 **4. Why does the raw pointer type alone not prove who owns the target?**
 
-[complete]
+[there might be a subclass that owns the array]
 
 **5. Why is a correct printed value not enough to prove that the lifetime logic is correct?**
 
-[complete]
+[because if any input changes such as damage there  might be an unknown error]
 
 ---
 
@@ -308,15 +351,15 @@ Complete this only if you encountered a genuine problem.
 
 **What went wrong?**
 
-[complete / no problem recorded]
+[ no problem recorded]
 
 **What did I change?**
 
-[complete / not applicable]
+[ / not applicable]
 
 **What happened after rebuilding?**
 
-[complete / not applicable]
+[ / not applicable]
 
 Do not invent an error if you did not encounter one.
 
