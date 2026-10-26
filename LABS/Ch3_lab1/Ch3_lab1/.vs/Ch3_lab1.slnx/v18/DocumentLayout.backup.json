@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DarkFalcon\\Documents\\Emily college\\git stuff\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab1\\Ch3_lab1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{797AC0CA-E033-412C-A529-E4EAA18394C9}|Ch3_lab1\\Ch3_lab1.vcxproj|C:\\Users\\DarkFalcon\\Documents\\Emily college\\git stuff\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab1\\Ch3_lab1\\Ch3_lab1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{797AC0CA-E033-412C-A529-E4EAA18394C9}|Ch3_lab1\\Ch3_lab1.vcxproj|solutionrelative:Ch3_lab1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\DarkFalcon\\Documents\\Emily college\\git stuff\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab1\\Ch3_lab1\\Ch3_lab1\\main.cpp",
+              "RelativeDocumentMoniker": "Ch3_lab1\\main.cpp",
+              "ToolTip": "C:\\Users\\DarkFalcon\\Documents\\Emily college\\git stuff\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab1\\Ch3_lab1\\Ch3_lab1\\main.cpp*",
+              "RelativeToolTip": "Ch3_lab1\\main.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-26T23:29:40.474Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
