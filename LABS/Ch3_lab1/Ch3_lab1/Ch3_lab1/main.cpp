@@ -4,6 +4,7 @@
 #include  <iostream>
 
 #include "CombatUnit.h"
+#include "Archer.h"
 
 
 int main()
@@ -12,6 +13,11 @@ int main()
 	CombatUnit guard{ 60 };
 	std::cout <<"Guard health is: " << guard.health() << "\n";
 	std::cout << "Guard attack power is: " << guard.attackPower() << "\n";
+
+	Archer archer{ 80,12 };
+	std::cout << "Archer health is:" << archer.health() << "\n";
+	std::cout << "Archer attack power is: " << archer.attackPower() << "\n";
+	
 
 	return 0;
 }
