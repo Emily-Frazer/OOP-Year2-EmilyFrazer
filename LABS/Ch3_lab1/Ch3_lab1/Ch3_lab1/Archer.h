@@ -1,7 +1,7 @@
 #ifndef ARCHER_H
 #define ARCHER_H
 #include "CombatUnit.h"
-class Archer : public CombatUnit
+class Archer : protected CombatUnit
 {
 public:
 	Archer(int t_health, int t_arrowPower);

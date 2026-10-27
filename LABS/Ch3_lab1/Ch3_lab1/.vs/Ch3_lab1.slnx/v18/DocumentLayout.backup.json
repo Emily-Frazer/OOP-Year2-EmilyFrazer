@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\DarkFalcon\\Documents\\Emily college\\git stuff\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab1\\Ch3_lab1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{797AC0CA-E033-412C-A529-E4EAA18394C9}|Ch3_lab1\\Ch3_lab1.vcxproj|C:\\Users\\DarkFalcon\\Documents\\Emily college\\git stuff\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab1\\Ch3_lab1\\Ch3_lab1\\Archer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{797AC0CA-E033-412C-A529-E4EAA18394C9}|Ch3_lab1\\Ch3_lab1.vcxproj|solutionrelative:Ch3_lab1\\Archer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{797AC0CA-E033-412C-A529-E4EAA18394C9}|Ch3_lab1\\Ch3_lab1.vcxproj|C:\\Users\\DarkFalcon\\Documents\\Emily college\\git stuff\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab1\\Ch3_lab1\\Ch3_lab1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{797AC0CA-E033-412C-A529-E4EAA18394C9}|Ch3_lab1\\Ch3_lab1.vcxproj|solutionrelative:Ch3_lab1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{797AC0CA-E033-412C-A529-E4EAA18394C9}|Ch3_lab1\\Ch3_lab1.vcxproj|C:\\Users\\DarkFalcon\\Documents\\Emily college\\git stuff\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab1\\Ch3_lab1\\Ch3_lab1\\CombatUnit.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{797AC0CA-E033-412C-A529-E4EAA18394C9}|Ch3_lab1\\Ch3_lab1.vcxproj|solutionrelative:Ch3_lab1\\CombatUnit.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{797AC0CA-E033-412C-A529-E4EAA18394C9}|Ch3_lab1\\Ch3_lab1.vcxproj|C:\\Users\\DarkFalcon\\Documents\\Emily college\\git stuff\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab1\\Ch3_lab1\\Ch3_lab1\\Archer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{797AC0CA-E033-412C-A529-E4EAA18394C9}|Ch3_lab1\\Ch3_lab1.vcxproj|solutionrelative:Ch3_lab1\\Archer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{797AC0CA-E033-412C-A529-E4EAA18394C9}|Ch3_lab1\\Ch3_lab1.vcxproj|C:\\Users\\DarkFalcon\\Documents\\Emily college\\git stuff\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab1\\Ch3_lab1\\Ch3_lab1\\Archer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -35,6 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\DarkFalcon\\Documents\\Emily college\\git stuff\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab1\\Ch3_lab1\\Ch3_lab1\\main.cpp",
+              "RelativeDocumentMoniker": "Ch3_lab1\\main.cpp",
+              "ToolTip": "C:\\Users\\DarkFalcon\\Documents\\Emily college\\git stuff\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab1\\Ch3_lab1\\Ch3_lab1\\main.cpp",
+              "RelativeToolTip": "Ch3_lab1\\main.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-26T23:29:40.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CombatUnit.cpp",
               "DocumentMoniker": "C:\\Users\\DarkFalcon\\Documents\\Emily college\\git stuff\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab1\\Ch3_lab1\\Ch3_lab1\\CombatUnit.cpp",
               "RelativeDocumentMoniker": "Ch3_lab1\\CombatUnit.cpp",
@@ -58,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CombatUnit.h",
               "DocumentMoniker": "C:\\Users\\DarkFalcon\\Documents\\Emily college\\git stuff\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab1\\Ch3_lab1\\Ch3_lab1\\CombatUnit.h",
               "RelativeDocumentMoniker": "Ch3_lab1\\CombatUnit.h",
@@ -70,27 +83,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Archer.h",
               "DocumentMoniker": "C:\\Users\\DarkFalcon\\Documents\\Emily college\\git stuff\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab1\\Ch3_lab1\\Ch3_lab1\\Archer.h",
               "RelativeDocumentMoniker": "Ch3_lab1\\Archer.h",
-              "ToolTip": "C:\\Users\\DarkFalcon\\Documents\\Emily college\\git stuff\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab1\\Ch3_lab1\\Ch3_lab1\\Archer.h",
-              "RelativeToolTip": "Ch3_lab1\\Archer.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\DarkFalcon\\Documents\\Emily college\\git stuff\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab1\\Ch3_lab1\\Ch3_lab1\\Archer.h*",
+              "RelativeToolTip": "Ch3_lab1\\Archer.h*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-10-26T23:35:57.977Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\DarkFalcon\\Documents\\Emily college\\git stuff\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab1\\Ch3_lab1\\Ch3_lab1\\main.cpp",
-              "RelativeDocumentMoniker": "Ch3_lab1\\main.cpp",
-              "ToolTip": "C:\\Users\\DarkFalcon\\Documents\\Emily college\\git stuff\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab1\\Ch3_lab1\\Ch3_lab1\\main.cpp",
-              "RelativeToolTip": "Ch3_lab1\\main.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-10-26T23:29:40.474Z",
+              "WhenOpened": "2026-10-26T23:35:57.977Z",
               "EditorCaption": ""
             }
           ]
