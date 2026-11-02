@@ -7,11 +7,12 @@ GameAbility::GameAbility(int t_power)
 	m_power = t_power;
 }
 
-//prints generic ability
-void GameAbility::activate() const
+GameAbility::~GameAbility()
 {
-	std::cout << "Generic ability" << std::endl;
+	std::cout << "- Game ability" << std::endl;
 }
+
+
 
 //returns m_power
 int GameAbility::power() const
@@ -24,6 +25,11 @@ ShieldAbility::ShieldAbility(int t_power) : GameAbility{ t_power }
 	m_shieldPower = t_power;
 }
 
+ShieldAbility::~ShieldAbility()
+{
+	std::cout << "-Shield ability" << std::endl;
+}
+
 void ShieldAbility::activate() const
 {
 	std::cout << "Shield Power: " << m_shieldPower << std::endl;
@@ -32,6 +38,11 @@ void ShieldAbility::activate() const
 HealAbility::HealAbility(int t_power) : GameAbility{ t_power }
 {
 	m_healPower = t_power;
+}
+
+HealAbility::~HealAbility()
+{
+	std::cout << "- Heal ability" << std::endl;
 }
 
 void HealAbility::activate() const

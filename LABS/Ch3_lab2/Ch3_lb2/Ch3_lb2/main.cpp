@@ -7,7 +7,7 @@ int main()
 {
 	std::cout << "THEE virtual stuff lab" << std::endl;
 
-	//non virtual stuffs
+	//virtual stuffs
 	ShieldAbility shield{ 20 };
 	HealAbility heal{ 15 };
 	GameAbility const& view{ shield };
@@ -20,6 +20,12 @@ int main()
 
 	std::cout << "Second Type:";
 	heal.activate();
+
+
+	//start of the owned stuff
+	GameAbility* pOwned{ new HealAbility{ 7 } };
+	std::cout << "owned action" << std::endl;
+	pOwned->activate();
 
 
 
