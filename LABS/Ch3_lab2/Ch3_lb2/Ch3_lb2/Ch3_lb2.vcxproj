@@ -139,7 +139,13 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Abilities.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Runner.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Abilities.h" />
+    <ClInclude Include="Runner.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

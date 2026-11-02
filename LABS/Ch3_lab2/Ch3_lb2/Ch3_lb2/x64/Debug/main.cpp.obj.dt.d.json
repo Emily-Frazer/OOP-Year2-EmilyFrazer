@@ -127,7 +127,9 @@
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.26100.0\\ucrt\\ctype.h",
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\clocale",
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.26100.0\\ucrt\\locale.h",
-            "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\ostream"
+            "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\ostream",
+            "c:\\users\\reef\\documents\\college-stuff\\year-2\\oop year 2\\oop-year2-emilyfrazer\\labs\\ch3_lab2\\ch3_lb2\\ch3_lb2\\abilities.h",
+            "c:\\users\\reef\\documents\\college-stuff\\year-2\\oop year 2\\oop-year2-emilyfrazer\\labs\\ch3_lab2\\ch3_lb2\\ch3_lb2\\runner.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
