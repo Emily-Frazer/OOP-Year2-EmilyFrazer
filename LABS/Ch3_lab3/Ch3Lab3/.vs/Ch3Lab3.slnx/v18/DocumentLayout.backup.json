@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{3C65353F-2290-4AC4-8D10-931373FA96F3}|Ch3Lab3\\Ch3Lab3.vcxproj|solutionrelative:Ch3Lab3\\Inspector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C65353F-2290-4AC4-8D10-931373FA96F3}|Ch3Lab3\\Ch3Lab3.vcxproj|C:\\Users\\c00322789\\Documents\\git\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab3\\Ch3Lab3\\Ch3Lab3\\Inspector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3C65353F-2290-4AC4-8D10-931373FA96F3}|Ch3Lab3\\Ch3Lab3.vcxproj|solutionrelative:Ch3Lab3\\Inspector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3C65353F-2290-4AC4-8D10-931373FA96F3}|Ch3Lab3\\Ch3Lab3.vcxproj|C:\\Users\\c00322789\\Documents\\git\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab3\\Ch3Lab3\\Ch3Lab3\\ArenaObjects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3C65353F-2290-4AC4-8D10-931373FA96F3}|Ch3Lab3\\Ch3Lab3.vcxproj|solutionrelative:Ch3Lab3\\ArenaObjects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C65353F-2290-4AC4-8D10-931373FA96F3}|Ch3Lab3\\Ch3Lab3.vcxproj|C:\\Users\\c00322789\\Documents\\git\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab3\\Ch3Lab3\\Ch3Lab3\\Inspector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3C65353F-2290-4AC4-8D10-931373FA96F3}|Ch3Lab3\\Ch3Lab3.vcxproj|solutionrelative:Ch3Lab3\\Inspector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C65353F-2290-4AC4-8D10-931373FA96F3}|Ch3Lab3\\Ch3Lab3.vcxproj|C:\\Users\\c00322789\\Documents\\git\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab3\\Ch3Lab3\\Ch3Lab3\\ArenaObjects.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -38,9 +38,9 @@
               "Title": "Inspector.cpp",
               "DocumentMoniker": "C:\\Users\\c00322789\\Documents\\git\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab3\\Ch3Lab3\\Ch3Lab3\\Inspector.cpp",
               "RelativeDocumentMoniker": "Ch3Lab3\\Inspector.cpp",
-              "ToolTip": "C:\\Users\\c00322789\\Documents\\git\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab3\\Ch3Lab3\\Ch3Lab3\\Inspector.cpp",
-              "RelativeToolTip": "Ch3Lab3\\Inspector.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\c00322789\\Documents\\git\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab3\\Ch3Lab3\\Ch3Lab3\\Inspector.cpp*",
+              "RelativeToolTip": "Ch3Lab3\\Inspector.cpp*",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwCUAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-11-09T15:52:27.536Z",
               "EditorCaption": ""
@@ -51,16 +51,16 @@
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\c00322789\\Documents\\git\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab3\\Ch3Lab3\\Ch3Lab3\\main.cpp",
               "RelativeDocumentMoniker": "Ch3Lab3\\main.cpp",
-              "ToolTip": "C:\\Users\\c00322789\\Documents\\git\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab3\\Ch3Lab3\\Ch3Lab3\\main.cpp*",
-              "RelativeToolTip": "Ch3Lab3\\main.cpp*",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\c00322789\\Documents\\git\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab3\\Ch3Lab3\\Ch3Lab3\\main.cpp",
+              "RelativeToolTip": "Ch3Lab3\\main.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-11-09T15:15:08.189Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ArenaObjects.cpp",
               "DocumentMoniker": "C:\\Users\\c00322789\\Documents\\git\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab3\\Ch3Lab3\\Ch3Lab3\\ArenaObjects.cpp",
               "RelativeDocumentMoniker": "Ch3Lab3\\ArenaObjects.cpp",
@@ -68,17 +68,18 @@
               "RelativeToolTip": "Ch3Lab3\\ArenaObjects.cpp",
               "ViewState": "AgIAABwAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-11-09T15:27:05.644Z"
+              "WhenOpened": "2026-11-09T15:27:05.644Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Inspector.h",
               "DocumentMoniker": "C:\\Users\\c00322789\\Documents\\git\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab3\\Ch3Lab3\\Ch3Lab3\\Inspector.h",
               "RelativeDocumentMoniker": "Ch3Lab3\\Inspector.h",
               "ToolTip": "C:\\Users\\c00322789\\Documents\\git\\OOP-Year2-EmilyFrazer\\LABS\\Ch3_lab3\\Ch3Lab3\\Ch3Lab3\\Inspector.h",
               "RelativeToolTip": "Ch3Lab3\\Inspector.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-11-09T15:22:12.347Z",
               "EditorCaption": ""
