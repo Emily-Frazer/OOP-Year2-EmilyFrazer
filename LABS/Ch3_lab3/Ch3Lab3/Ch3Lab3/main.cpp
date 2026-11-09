@@ -2,6 +2,7 @@
 //c00322789
 //emily frazer
 #include "ArenaObjects.h"
+#include "Inspector.h"
 
 #include <iostream>
 #include <typeinfo>
@@ -23,6 +24,12 @@ int main()
 	selected->report();
 	selected = &crate;
 	selected->report();
+
+	//check guard views
+	std::cout << readGuardHealth(&guard) <<std::endl;
+	std::cout << readGuardHealth(&elite) <<std::endl;
+	std::cout << readGuardHealth(&crate) <<std::endl;
+	std::cout << readGuardHealth(nullptr)<<std::endl;
 
 
 	return 0;
