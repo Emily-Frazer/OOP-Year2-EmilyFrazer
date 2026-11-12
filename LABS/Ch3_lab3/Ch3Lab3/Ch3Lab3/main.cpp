@@ -32,10 +32,10 @@ int main()
 	std::cout << readGuardHealth(nullptr)<<std::endl;
 
 	//Exact type checks
-	std::cout <<"Guard is exact guard: " << isExactGuard(&guard) << std::endl;
-	std::cout <<"Elite is exact guard: " << isExactGuard(&elite) << std::endl;
-	std::cout <<"Crate is exact guard: " << isExactGuard(&crate) << std::endl;
-	std::cout <<"Elite is exact elite: " << isExactGuard(dynamic_cast<Guard const*>(&elite)) << std::endl;
-	std::cout <<"Pointer is ArenaObject const*: " << isExactGuard(selected) << std::endl;
+	std::cout <<"Guard is exact guard: " << isExactGuard(dynamic_cast<Guard const*>(&guard)) << std::endl;
+	std::cout <<"Elite is exact guard: " << isExactGuard(dynamic_cast<Guard const*>(&elite)) << std::endl;
+	std::cout <<"Crate is exact guard: " << isExactGuard(dynamic_cast<Guard const*>(&crate)) << std::endl;
+	std::cout <<"Elite is exact elite: " << isExactGuard(dynamic_cast<EliteGuard const*>(&elite)) << std::endl;
+	std::cout <<"Pointer is ArenaObject const*: " << isExactGuard(dynamic_cast<ArenaObject const*>(selected)) << std::endl;
 	return 0;
 }
