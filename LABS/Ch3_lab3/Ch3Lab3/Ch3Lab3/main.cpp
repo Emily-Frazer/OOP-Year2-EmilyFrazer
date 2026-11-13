@@ -32,11 +32,16 @@ int main()
 	std::cout << readGuardHealth(nullptr)<<std::endl;
 
 	//Exact type checks
-	std::cout <<"Guard is exact guard: " << isExactGuard(dynamic_cast<Guard const*>(&guard), typeid(Guard)) << std::endl;
-	std::cout <<"Elite is exact guard: " << isExactGuard(dynamic_cast<Guard const*>(&elite), typeid(Guard)) << std::endl;
-	std::cout <<"Crate is exact guard: " << isExactGuard(dynamic_cast<Guard const*>(&crate), typeid(Guard)) << std::endl;
-	std::cout <<"Elite is exact elite: " << isExactGuard(dynamic_cast<EliteGuard const*>(&elite), typeid(EliteGuard)) << std::endl;
-	std::cout << "Pointer is ArenaObject const*: " << isExactGuard(dynamic_cast<ArenaObject const*>(selected), typeid(ArenaObject)) << std::endl;
+	selected = &guard;
+	std::cout <<"Guard is exact guard: " << isExactGuard(selected, typeid(Guard)) << std::endl;
+	selected = &elite;
+	std::cout <<"Elite is exact guard: " << isExactGuard(selected, typeid(Guard)) << std::endl;
+	selected = &crate;
+	std::cout <<"Crate is exact guard: " << isExactGuard(selected, typeid(Guard)) << std::endl;
+	selected = &elite;
+	std::cout <<"Elite is exact elite: " << isExactGuard(selected, typeid(EliteGuard)) << std::endl;
+	selected = &guard;
+	std::cout << "Pointer is ArenaObject const*: " << (typeid(selected) == typeid(ArenaObject const*)) << std::endl;
 	
 	return 0;
 }
